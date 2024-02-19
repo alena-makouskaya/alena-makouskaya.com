@@ -18,7 +18,7 @@
     <!-- Header Container -->
     <div class="header-container">
         <!-- Header Logo -->
-        <a href="index.html" class="header-logo">
+        <a href="{{route('index')}}" class="header-logo">
             <span class="header-logo__name">Alena</span>
             <span class="header-logo__surname">Makouskaya</span>
         </a>

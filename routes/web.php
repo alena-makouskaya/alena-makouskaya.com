@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::group(['namespace' => 'Guest'], function (){
     Route::get('/', 'IndexController')->name('index');
+});
+
+Route::group(['namespace' => 'Auth'], function (){
+    Route::get('/register', 'RegisterController@create')->name('register');
 });
